@@ -1,5 +1,6 @@
 //var object1='{"title":"video1","date":"03/03/2017"}';
 var fs = require("fs");
+//var JSONStream = require('../node_modules/json-stream');
 var object1 = fs.readFileSync("object1.JSON");
 var obj1=JSON.parse(object1);
 var redis=require('../node_modules/redis');
